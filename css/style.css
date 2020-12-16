@@ -1,0 +1,368 @@
+/* Google Fonts Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* Global CSS */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header Section Start */
+header {
+    background: #f6f9f9;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+}
+.logo{
+    width: 250px;
+}
+
+/* Banner Section Start */
+.banner-bg{
+	background: url(../images/rifat.png) no-repeat center;
+	background-size: cover;
+	width: 100%;
+    float: left;
+    opacity: 0.6;
+}
+.banner-bg h1 {
+    padding-top: 270px;
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.banner-title-border {
+    background: #15a4fa;
+    width: 50%;
+    height: 2px;
+    display: block;
+    margin: 5px auto 20px;
+}
+.Student{
+    padding:10px 300px;
+}
+.banner-bg p{
+	color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+    border: 1px solid gray;
+    background: transparent;
+    background-color: #15a4fa;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+}
+.btn-primary {
+    border: 1px solid #15a4fa;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 35px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.4s ease-in-out;
+}
+.btn-primary:hover{
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
+.banner-arrow-down {
+    margin: 180px 0px 50px;
+    text-align: center;
+    width: 100%;
+}
+.fa-angle-down{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+}
+/* Banner Section End */
+
+/* About Section Start */
+.about-us{
+    padding: 80px 0px;
+    background-color: #f6f9f9;
+    width: 100%;
+    float: left;
+}
+.about-us h2{
+    font-size: 40px;
+    text-align: center;
+    color: #2d3950;
+}
+.about-us p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 28px;
+    color: #999999;
+    line-height: 30px;
+}
+/*About Section End*/
+
+/*Feature Section Start*/
+}
+.features{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+    width: 33.3333%;
+    float: left;
+}
+.feature-box h3{
+    text-align: center;
+    font-size: 22px;
+    color: #454e61;
+    padding: 25px 0px 15px;
+}
+.feature-box p{
+    font-size: 15px;
+    text-align: center;
+    color: #b8b8b8;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+.feature-box img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+/*Feature Section End*/
+
+/*Portfolio Section Start*/
+.portfolio{
+    padding: 80px 0px;
+    background-color: #f6f9f9;
+    width: 100%;
+    float: left;
+}
+.portfolio h2{
+    font-size: 40px;
+    text-align: center;
+    color: #2d3950;
+}
+.portfolio p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: #999999;
+    line-height: 30px;
+}
+.portfolio-gallery {
+    padding-top: 80px;
+}
+.portfolio-item{
+    position: relative;
+    width: 32%;
+    float: left;
+    margin: 7px 7px;
+}
+.portfolio-item img{
+    width: 100%;
+}
+.portfolio-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: #2bacfa;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.portfolio-hover ul{
+    position: absolute;
+    width: 100%;
+    top: 47%;
+    left: 35%;
+}
+.portfolio-hover ul li{
+    list-style: none;
+    display: inline;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    padding: 7px 12px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.portfolio-item:hover .portfolio-hover{
+    opacity: 0.8;
+}
+/*Portfolio Section End*/
+
+/*Footer Section Start*/
+footer{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 20px 0px;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+}
+.footer-left p{
+    color: #999999;
+    font-size: 15px;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.footer-right ul li{
+    list-style: none;
+    display: inline;
+}
+.footer-right ul li i{
+    width: 32px;
+    height: 32px;
+    line-height: 33px;
+    background-color: #15a4fa;
+    text-align: center;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fa-facebook:hover{
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    background: skyblue;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-google-plus:hover{
+    background: orange;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-linkedin:hover{
+    background: maroon;
+    color: #fff;
+    cursor: pointer;
+}
+/*Footer Section End*/
+
+
+
+/* Media Query for Mobile Device*/
+@media (min-width: 320px) and (max-width: 500px){
+    .container{
+        width: 100%;
+    }
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+    .banner-bg h1 {
+        padding-top: 55px;
+        font-size: 60px;
+           
+    }
+    .banner-bg p {
+        font-size: 15px;
+        padding: 0px 15px 30px;
+    }
+    .banner-arrow-down {
+        margin: 30px 0px 30px;
+    }
+    .about-us,
+    .features,
+    .portfolio,
+    .portfolio-gallery {
+        padding: 30px 0px;
+    }
+    .about-us,
+    .portfolio h2 {
+        font-size: 28px;
+    }
+    .about-us p {
+        font-size: 16px;
+        padding: 15px 20PX;
+        line-height: 22px;
+    }
+    .btn-primary {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .feature-box {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px: 
+    }
+    .feature-box img {
+        padding-top: 50px;
+    }
+    .feature-box h3 {
+        font-size: 16px;
+        padding: 12px 0px 12px;
+    }
+    .feature-box p {
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+    .portfolio p {
+        font-size: 15px;
+        padding-top: 12px;
+        line-height: 25px;
+    }
+    .portfolio-item {
+        width: 80%;
+        float: none;
+        margin: 10px auto;
+    }
+    .portfolio-hover ul {
+        width: 65%;
+        left: 35;
+    }
+    .footer-left, 
+    .footer-right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*Media Query for Tablet Device*/
+@media (min-width: 501px) and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/*Media Query for Laptop Devices*/
+@media (min-width: 769px) and (max-width: 900px){
+    .container{
+        width: 100%;
+    }
+    .logo{
+        display: block;
+        margin: 0 auto;
+    }
+}
